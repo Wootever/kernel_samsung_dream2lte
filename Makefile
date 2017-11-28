@@ -4,6 +4,8 @@ SUBLEVEL = 13
 EXTRAVERSION =
 NAME = Blurry Fish Butt
 
+PLATFORM_VERSION = 7.1.1
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
