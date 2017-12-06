@@ -274,3 +274,7 @@ fi
 
 # We made a new kernel - delete old version file
 rm -f .old_version
+
+if [ -x "${objtree}/scripts/dtc/dtbtool" ]; then
+    ${objtree}/scripts/dtc/dtbtool -d ${objtree}/arch/arm64/boot/dts/exynos/ -o ${objtree}/arch/arm64/boot/dt.img
+fi
